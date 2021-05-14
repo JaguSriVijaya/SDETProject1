@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.852838">
+<testcase classname="Sending mail feature" name="Verification of sending mail" time="33.613755">
+<system-out><![CDATA[Given Open upskill url......................................................passed
+When enter "Vij11" and "vijaya@98485".......................................passed
+And click on login..........................................................passed
+And click on compose link and fill details..................................passed
+Then click on send message..................................................passed
+And validate successful message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Signup on Upskill page" name="Verify Signup feature" time="16.239083">
+<system-out><![CDATA[Given User opens the home page..............................................passed
+And click on signup button..................................................passed
+When fill all the fields "vij","jagu","jag@gmail.com","Vij11","vijaya@98485","vijaya@98485".passed
+And Click on register.......................................................passed
+Then validate the success message after register............................passed
+]]></system-out>
+</testcase>
+</testsuite>
